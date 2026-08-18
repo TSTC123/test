@@ -18,7 +18,7 @@ Three things must be configured before the Agent can work:
 
 * **Example (Tap Use my API + Enable AI features)**
 
-  <img src="images/01-connect-ai-gate.png" alt="Connect AI gate" style="zoom:25%;" /><img src="images/02-enable-ai-features.png" alt="Enable AI features" style="zoom:25%;" />
+  <img src="images/01-connect-ai-gate.png" alt="Connect AI gate" width="180" /><img src="images/02-enable-ai-features.png" alt="Enable AI features" width="180" />
 
 AI features are disabled by default. After enabling, exit the configuration screen.
 
@@ -30,7 +30,7 @@ Start setting up and choose an AI provider (OpenAI, Anthropic, Google, DeepSeek,
 
 * **Example (AI Provider Setting + Select AI Provider)**
 
-  <img src="images/03-ai-provider-setting.png" alt="AI Provider Setting" style="zoom:25%;" /><img src="images/04-select-ai-provider.png" alt="Select AI Provider" style="zoom:25%;" />
+  <img src="images/03-ai-provider-setting.png" alt="AI Provider Setting" width="180" /><img src="images/04-select-ai-provider.png" alt="Select AI Provider" width="180" />
 
 > Local providers (Ollama, Local Qwen) are supported — the API key field can be left empty for them.
 
@@ -41,7 +41,7 @@ If you need to add a new provider, follow these steps:
 
 * **Example (Tap Add New Provider, confirm Add Provider)**
 
-  <img src="images/05-add-new-provider.png" alt="Add new provider" style="zoom:25%;" /><img src="images/06-confirm-add-provider.png" alt="Confirm add" style="zoom:25%;" />
+  <img src="images/05-add-new-provider.png" alt="Add new provider" width="180" /><img src="images/06-confirm-add-provider.png" alt="Confirm add" width="180" />
 
 How to configure a new Provider:
 
@@ -50,7 +50,7 @@ How to configure a new Provider:
 
 * **Example (Fill in three basic items + API Key Optional setting)**
 
-  <img src="images/07-provider-basic-info.png" alt="Provider basic info" style="zoom:25%;" /><img src="images/08-api-key-optional.png" alt="API Key Optional setting" style="zoom:25%;" />
+  <img src="images/07-provider-basic-info.png" alt="Provider basic info" width="180" /><img src="images/08-api-key-optional.png" alt="API Key Optional setting" width="180" />
 
 After configuration, choose whether to set up an API Key based on the provider's requirements (local providers like Ollama can leave it empty). Here are the steps to set up an API Key:
 
@@ -60,7 +60,7 @@ After configuration, choose whether to set up an API Key based on the provider's
 
 * **Example (Tap update API Key + paste and save API Key)**
 
-  <img src="images/09-update-api-key.png" alt="Update API Key" style="zoom:25%;" /><img src="images/10-save-api-key.png" alt="Save API Key" style="zoom:25%;" />
+  <img src="images/09-update-api-key.png" alt="Update API Key" width="180" /><img src="images/10-save-api-key.png" alt="Save API Key" width="180" />
 
 After everything is configured, you can optionally:
 
@@ -69,7 +69,7 @@ After everything is configured, you can optionally:
 
 * **Example (Tap Test connection button + success notification)**
 
-  <img src="images/11-test-connection.png" alt="Test connection" style="zoom:25%;" /><img src="images/12-test-success.png" alt="Connection successful" style="zoom:25%;" />
+  <img src="images/11-test-connection.png" alt="Test connection" width="180" /><img src="images/12-test-success.png" alt="Connection successful" width="180" />
   
   > If the test fails, please check: Is the API Key correct? Is the Endpoint URL complete? Is the network connection normal?
 
@@ -77,7 +77,7 @@ After everything is configured, you can optionally:
 
 Tap the **target icon** 🎯 in the top bar and pick one:
 
-<img src="images/13-target-icon.png" alt="Target icon" style="zoom:25%;" /><img src="images/14-target-selection.png" alt="Target selection" style="zoom:25%;" />
+<img src="images/13-target-icon.png" alt="Target icon" width="180" /><img src="images/14-target-selection.png" alt="Target selection" width="180" />
 
 | Pick this | Resulting mode | What it does |
 |---|---|---|
@@ -94,7 +94,7 @@ Tap the **settings icon** in the top bar and configure each item:
 2. **Execution Limits** configures plan generation limits and maximum retry attempts for generation/execution failures.
 3. **System Prompts** allows customization of system prompts for Terminal mode and HID mode (advanced users).
 
-<img src="images/17-agent-settings.png" alt="Agent Settings" style="zoom:25%;" /><img src="images/18-settings-detail.png" alt="Settings detail" style="zoom:25%;" />
+<img src="images/17-agent-settings.png" alt="Agent Settings" width="180" /><img src="images/18-settings-detail.png" alt="Settings detail" width="180" />
 
 ---
 
@@ -104,7 +104,7 @@ Tap the **settings icon** in the top bar and configure each item:
 
 Type a request in the input box and tap **Send**.
 
-<img src="images/15-input-request.png" alt="Input request" style="zoom:25%;" />
+<img src="images/15-input-request.png" alt="Input request" width="180" />
 
 Example prompts:
 
@@ -123,7 +123,7 @@ When the plan is ready, the Agent shows a card listing every step. You have thre
 - **Edit** — modify, add, or remove steps before running.
 - **Cancel** — discard the plan.
 
-> <img src="images/19-plan-hid-card.png" alt="Plan card" style="zoom:25%;" /><img src="images/20-plan-hid-mark.png" alt="HID mark" style="zoom:25%;" />
+> <img src="images/19-plan-hid-card.png" alt="Plan card" width="180" /><img src="images/20-plan-hid-mark.png" alt="HID mark" width="180" />
 > **Nothing runs until you approve.** The Agent will never execute a command on its own.
 >
 > When generating HID commands, the plan card will have an HID marker.
@@ -134,7 +134,7 @@ Each step appears as a card with live output (in Terminal mode) or a status line
 
 * Execution process + Agent summary
 
-  <img src="images/21-execution-process.png" alt="Execution process" style="zoom:25%;" /><img src="images/22-agent-summary.png" alt="Agent summary" style="zoom:25%;" />
+  <img src="images/21-execution-process.png" alt="Execution process" width="180" /><img src="images/22-agent-summary.png" alt="Agent summary" width="180" />
 
   > The live-running terminal will show the current command execution status. Tap the hourglass icon to abort the current Agent execution.
 

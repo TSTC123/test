@@ -18,7 +18,7 @@ Agent 工作前需要配置三件事：
 
 * **操作例图（按下Use my API + Enable AI features）**
 
-  <img src="images/01-connect-ai-gate.png" alt="Connect AI 引导页" style="zoom:25%;" /><img src="images/02-enable-ai-features.png" alt="启用 AI 功能" style="zoom:25%;" />
+  <img src="images/01-connect-ai-gate.png" alt="Connect AI 引导页" width="180" /><img src="images/02-enable-ai-features.png" alt="启用 AI 功能" width="180" />
 
 AI features初始默认是关闭的，启用后，切出配置界面。
 
@@ -30,7 +30,7 @@ AI features初始默认是关闭的，启用后，切出配置界面。
 
 * **操作例图（AI Provider Setting + Select AI Provider）**
 
-  <img src="images/03-ai-provider-setting.png" alt="AI Provider 设置" style="zoom:25%;" /><img src="images/04-select-ai-provider.png" alt="选择 AI 供应商" style="zoom:25%;" />
+  <img src="images/03-ai-provider-setting.png" alt="AI Provider 设置" width="180" /><img src="images/04-select-ai-provider.png" alt="选择 AI 供应商" width="180" />
 
 > 支持本地供应商（Ollama、Local Qwen)—— 它们的 API Key 字段可以留空。
 
@@ -41,7 +41,7 @@ AI features初始默认是关闭的，启用后，切出配置界面。
 
 * **操作例图（按下Add New Provider，再次确认Add Provider)**
 
-  <img src="images/05-add-new-provider.png" alt="添加新供应商" style="zoom:25%;" /><img src="images/06-confirm-add-provider.png" alt="确认添加" style="zoom:25%;" />
+  <img src="images/05-add-new-provider.png" alt="添加新供应商" width="180" /><img src="images/06-confirm-add-provider.png" alt="确认添加" width="180" />
 
 如何配置新的Provider:
 
@@ -50,7 +50,7 @@ AI features初始默认是关闭的，启用后，切出配置界面。
 
 * **操作例图（填入三项基础信息+是否启用API key Optional）**
 
-  <img src="images/07-provider-basic-info.png" alt="供应商基础信息" style="zoom:25%;" /><img src="images/08-api-key-optional.png" alt="API Key 可选设置" style="zoom:25%;" />
+  <img src="images/07-provider-basic-info.png" alt="供应商基础信息" width="180" /><img src="images/08-api-key-optional.png" alt="API Key 可选设置" width="180" />
 
 配置完成后，根据供应商的实际需求，选择是否设置 API Key（本地供应商如 Ollama 可以留空）。以下是设置 API Key 的操作步骤：
 
@@ -60,7 +60,7 @@ AI features初始默认是关闭的，启用后，切出配置界面。
 
 * **操作例图（按下update API Key + 粘贴 API Key并且保存）**
 
-  <img src="images/09-update-api-key.png" alt="更新 API Key" style="zoom:25%;" /><img src="images/10-save-api-key.png" alt="保存 API Key" style="zoom:25%;" />
+  <img src="images/09-update-api-key.png" alt="更新 API Key" width="180" /><img src="images/10-save-api-key.png" alt="保存 API Key" width="180" />
 
 在一切配置完毕后，可选如下操作：
 
@@ -69,7 +69,7 @@ AI features初始默认是关闭的，启用后，切出配置界面。
 
 * **操作例图（按下 Test connection 按钮 + 成功提示）**
 
-  <img src="images/11-test-connection.png" alt="测试连接" style="zoom:25%;" /><img src="images/12-test-success.png" alt="连接成功" style="zoom:25%;" />
+  <img src="images/11-test-connection.png" alt="测试连接" width="180" /><img src="images/12-test-success.png" alt="连接成功" width="180" />
   
   > 如果测试失败，请检查：API Key 是否正确、Endpoint URL 是否完整、网络连接是否正常。
 
@@ -77,7 +77,7 @@ AI features初始默认是关闭的，启用后，切出配置界面。
 
 点击顶部的 **目标图标** 🎯，选择其一：
 
-<img src="images/13-target-icon.png" alt="目标图标" style="zoom:25%;" /><img src="images/14-target-selection.png" alt="目标选择" style="zoom:25%;" />
+<img src="images/13-target-icon.png" alt="目标图标" width="180" /><img src="images/14-target-selection.png" alt="目标选择" width="180" />
 
 | 选择 | 进入模式 | 行为 |
 |---|---|---|
@@ -94,7 +94,7 @@ AI features初始默认是关闭的，启用后，切出配置界面。
 2. **Execution Limits** 配置计划的生成限制，生成、执行失败时候的最大重试限制次数。
 3. **System Prompts** 可自定义终端模式和 HID 模式的系统提示词（高级用户）。
 
-<img src="images/17-agent-settings.png" alt="Agent 设置" style="zoom:25%;" /><img src="images/18-settings-detail.png" alt="设置详情" style="zoom:25%;" />
+<img src="images/17-agent-settings.png" alt="Agent 设置" width="180" /><img src="images/18-settings-detail.png" alt="设置详情" width="180" />
 
 ---
 
@@ -104,7 +104,7 @@ AI features初始默认是关闭的，启用后，切出配置界面。
 
 在输入框中输入请求，点击 **发送**。
 
-<img src="images/15-input-request.png" alt="输入请求" style="zoom:25%;" />
+<img src="images/15-input-request.png" alt="输入请求" width="180" />
 
 示例提示词：
 
@@ -123,7 +123,7 @@ Agent 思考时你会看到 "Thinking..." ，可能需要几秒钟。
 -  **编辑（Edit）** —— 修改、添加或删除步骤后再执行。
 -  **取消（Cancel）** —— 丢弃该计划。
 
-> <img src="images/19-plan-hid-card.png" alt="计划卡片" style="zoom:25%;" /><img src="images/20-plan-hid-mark.png" alt="HID 标记" style="zoom:25%;" />
+> <img src="images/19-plan-hid-card.png" alt="计划卡片" width="180" /><img src="images/20-plan-hid-mark.png" alt="HID 标记" width="180" />
 > **未经批准，什么也不会执行。** Agent 绝不会自行运行任何命令。
 >
 > 生成HID命令时，计划卡片会有HID标记
@@ -134,7 +134,7 @@ Agent 思考时你会看到 "Thinking..." ，可能需要几秒钟。
 
 * 执行过程 + Agent总结
 
-  <img src="images/21-execution-process.png" alt="执行过程" style="zoom:25%;" /><img src="images/22-agent-summary.png" alt="Agent 总结" style="zoom:25%;" />
+  <img src="images/21-execution-process.png" alt="执行过程" width="180" /><img src="images/22-agent-summary.png" alt="Agent 总结" width="180" />
 
   > 实时运行的终端会提示当前命令执行状态，点击沙漏图标可中止当前Agent的执行
 

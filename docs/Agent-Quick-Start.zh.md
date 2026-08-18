@@ -75,7 +75,7 @@ AI features初始默认是关闭的，启用后，切出配置界面。
 
 ### B. Target Setting配置 
 
-点击顶部的 **目标图标** 🎯，选择其一：
+点击顶部的 **目标图标** ，选择其一：
 
 <img src="images/13-target-icon.png" alt="目标图标" width="180" /><img src="images/14-target-selection.png" alt="目标选择" width="180" />
 

@@ -75,7 +75,7 @@ After everything is configured, you can optionally:
 
 ### B. Target Setting configuration
 
-Tap the **target icon** 🎯 in the top bar and pick one:
+Tap the **target icon**  in the top bar and pick one:
 
 <img src="images/13-target-icon.png" alt="Target icon" width="180" /><img src="images/14-target-selection.png" alt="Target selection" width="180" />
 
